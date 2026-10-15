@@ -10,7 +10,7 @@ export default function Hero() {
           <span className="badge-dot" aria-hidden="true" />
           {PROFILE.openToWork}
         </p>
-        <h1 id="hero-name" className="hero-name">{PROFILE.name}</h1>
+        <h1 id="hero-name" className="hero-name">{PROFILE.greeting}</h1>
         <p className="hero-role">{PROFILE.role}</p>
         <p className="hero-intro">{PROFILE.intro}</p>
         <div className="hero-actions">
