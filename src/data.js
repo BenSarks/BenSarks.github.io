@@ -1,7 +1,7 @@
-// All site content lives here. Edit this file to update the portfolio.
 
 export const PROFILE = {
   name: 'Ben',
+  greeting: "Hi, I'm Ben",
   role: 'Software Engineer',
   intro:
     'I build intelligent software, from machine learning pipelines and autonomous AI agents to full-stack web and mobile apps.',
@@ -14,7 +14,7 @@ export const PROFILE = {
     { label: 'Stack', value: 'C++, Python, Java, C#, JavaScript' },
   ],
   about:
-    "I'm a Computer Science graduate from Afeka College of Engineering who loves turning complex problems into clean, working software. My final project used machine learning to detect antisemitic content and misinformation across social media, trained on over 700,000 posts. I've built AI agents with A* pathfinding from scratch, a real-time vehicle diagnostics tool that talks directly to car hardware, and games and mobile apps across C++, Python, Java, and C#. I care about clean architecture, thoughtful design patterns, and software that's actually pleasant to use. I'm looking for a team where I can keep learning fast and ship things that matter.",
+    "I'm a Computer Science graduate from Afeka College of Engineering who loves turning complex problems into clean, working software. My final project used machine learning to detect antisemitic content and misinformation across social media. I've built AI agents with A* pathfinding from scratch, a real-time vehicle diagnostics tool that talks directly to car hardware, and games and mobile apps across C++, Python, Java, and C#. I care about clean architecture, thoughtful design patterns, and software that's actually pleasant to use. I'm looking for a team where I can keep learning fast and ship things that matter.",
 };
 
 export const STATS = [
@@ -35,7 +35,7 @@ export const FEATURED = [
     summary:
       'A full-stack ML system that monitors Instagram and Reddit for antisemitic content and misinformation, classifies posts in real time, and visualizes trends on an analytics dashboard. Built in response to the surge of online antisemitic incitement after October 7th.',
     highlights: [
-      'NLP classifier (scikit-learn, TF-IDF + SGDClassifier) trained on labeled posts with class balancing',
+      'NLP classifier (scikit-learn, TF-IDF + SGDClassifier) trained on a large labeled dataset with class balancing',
       'OCR with EasyOCR to catch hateful text hidden in memes and images',
       'Extensible multi-platform scraper architecture with retry logic and rate limiting',
       'FastAPI + MySQL backend serving real-time inference',
