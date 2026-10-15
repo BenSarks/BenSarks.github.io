@@ -18,7 +18,6 @@ export const PROFILE = {
 };
 
 export const STATS = [
-  { value: 700, suffix: 'K+', label: 'posts used to train my ML classifier' },
   { value: 7, suffix: '', label: 'shipped projects' },
   { value: 5, suffix: '', label: 'languages: C++, Python, Java, C#, JavaScript' },
   { text: 'Full stack', label: 'from hardware protocols to React dashboards' },
@@ -36,7 +35,7 @@ export const FEATURED = [
     summary:
       'A full-stack ML system that monitors Instagram and Reddit for antisemitic content and misinformation, classifies posts in real time, and visualizes trends on an analytics dashboard. Built in response to the surge of online antisemitic incitement after October 7th.',
     highlights: [
-      'NLP classifier (scikit-learn, TF-IDF + SGDClassifier) trained on 700K+ labeled posts with class balancing',
+      'NLP classifier (scikit-learn, TF-IDF + SGDClassifier) trained on labeled posts with class balancing',
       'OCR with EasyOCR to catch hateful text hidden in memes and images',
       'Extensible multi-platform scraper architecture with retry logic and rate limiting',
       'FastAPI + MySQL backend serving real-time inference',
