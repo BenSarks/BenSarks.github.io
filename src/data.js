@@ -1,7 +1,7 @@
 
 export const PROFILE = {
   name: 'Ben',
-  greeting: "Hi, I'm Ben",
+  greeting: "Hi, I'm Ben. Just graduated, ready to build",
   role: 'Software Engineer',
   intro:
     'I build intelligent software, from machine learning pipelines and autonomous AI agents to full-stack web and mobile apps.',
@@ -162,3 +162,4 @@ export const SKILLS = [
     items: ['OOP & design patterns', 'Search algorithms (A*, BFS/DFS)', 'Finite state machines', 'Multi-agent systems', 'NLP', 'Multithreading'],
   },
 ];
+
